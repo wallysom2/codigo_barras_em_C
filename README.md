@@ -1,4 +1,4 @@
-# 🏷️ **Sistema de Geração e Leitura de Códigos de Barras EAN-8**
+# 🏷️ **Geração e Leitura de Códigos de Barras EAN-8**
 Este projeto implementa dois programas em C que manipulam códigos de barras no padrão **EAN-8**:
 1. 🎨 **Gerar um código de barras EAN-8 em formato PBM.**
 2. 🔍 **Extrair o identificador de um código de barras EAN-8 a partir de uma imagem PBM.**
