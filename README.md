@@ -3,13 +3,9 @@ Este projeto implementa dois programas em C que manipulam códigos de barras no 
 1. 🎨 **Gerar um código de barras EAN-8 em formato PBM.**
 2. 🔍 **Extrair o identificador de um código de barras EAN-8 a partir de uma imagem PBM.**
 
-<div align="center">
-  <img src="https://pt.activebarcode.com/codes/imagesmainexample/ean8.gif" alt="Exemplo de código de barras EAN-8">
-</div>
-
 ---
 
-## ⭐ **Características**
+## 📚 **Características**
 ### EAN-8
 - Contém **8 dígitos**: 7 dígitos de dados + 1 dígito verificador.
 - Verifica automaticamente se o identificador é válido, garantindo a conformidade com o padrão EAN-8.
@@ -35,7 +31,7 @@ gcc main_extrai.c ean8.c image.c -o extrai
 
 ---
 
-## 📖 **Modo de Uso**
+## 💻 **Modo de Uso**
 
 ### 1. 🎨 **Gerar um Código de Barras**
 ```bash
@@ -97,6 +93,9 @@ Recomendamos o uso da extensão **PBM/PPM/PGM Viewer for Visual Studio Code** pa
 - 🔗 Link para a extensão: [PBM/PPM/PGM Viewer](https://marketplace.visualstudio.com/items?itemName=dwayne.simple-pbm-viewer)
 
 Após instalar, você poderá abrir arquivos `.pbm` diretamente no **VS Code** e visualizar as imagens de forma prática e clara.
+<div align="center">
+  <img src="https://pt.activebarcode.com/codes/imagesmainexample/ean8.gif" alt="Exemplo de código de barras EAN-8">
+</div>
 
 ---
 
